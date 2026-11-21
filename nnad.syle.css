@@ -1,0 +1,63 @@
+/* ===== Variabel warna BARU - Presentasi Friendly ===== */
+:root {
+  --ink: #0f172a;        /* biru dongker profesional */
+  --paper: #f8fafc;      /* putih bersih - enak di mata proyektor */
+  --white: #ffffff;
+  --line: #e2e8f0;       /* garis soft */
+  --accent: #0ea5e9;     /* biru cerah - menarik tapi gak norak */
+  --accent-2: #06b6d4;   /* cyan buat hover */
+  --muted: #64748b;
+  --font: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* SISA CSS KAMU TETAP SAMA, CUMA GANTI DI BAWAH INI BIAR MAKIN MENARIK PAS PRESENTASI */
+
+.topbar {
+  background: var(--white);
+  color: var(--ink);
+  border-bottom: 2px solid var(--line);
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+}
+
+.topbar nav a:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+
+h2 {
+  border-bottom: 4px solid var(--accent);
+}
+
+.btn {
+  background: var(--accent);
+  color: var(--white);
+}
+
+.btn:hover {
+  background: var(--ink);
+  color: var(--white);
+}
+
+.hero-card {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--accent); /* garis aksen di kiri - kelihatan pro */
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+thead th {
+  background: var(--ink);
+}
+
+.card {
+  border-top: 4px solid var(--accent);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+}
+
+footer {
+  background: var(--ink);
+]''
